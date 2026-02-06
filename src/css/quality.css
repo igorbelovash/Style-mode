@@ -1,0 +1,38 @@
+.first-block {
+    padding-top: 64px;
+    margin-bottom: 32px;
+}
+
+.titel-qual {
+    font-family: "Quicksand",
+        sans-serif;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.first-subtitel {
+    font-family: "Aboreto",
+        sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+    margin-bottom: 24px;
+}
+
+.q-text {
+    font-family: "Quicksand",
+            sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.qual-img {
+    border-radius: 32px;
+}
