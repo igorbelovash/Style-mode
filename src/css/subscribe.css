@@ -1,4 +1,4 @@
-.subscrib {
+.subscribe {
   text-align: left;
 }
 .subscribe-title {
@@ -7,7 +7,7 @@
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #0b0803;
+  color: #0b0803;eval "$(ssh-agent -s)"
   margin-bottom: 24px;
 }
 .subscribe-title-label {
