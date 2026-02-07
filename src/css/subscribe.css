@@ -1,5 +1,6 @@
 .section-subscribe {
-  padding: 64px 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .subscribe-title {
@@ -19,6 +20,8 @@
 .subscribe-form {
   display: flex;
   flex-direction: column;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
 .inp-wrp {
   margin-bottom: 24px;
@@ -46,31 +49,22 @@
   outline: none;
 }
 .subscribe-input:not(:placeholder-shown):invalid {
-  color: red;
+  color: #7f1c1c;
 }
-.subscribe-input:not(:placeholder-shown):valid {
-  border-color: green;
-}
-.text-valid,
+
 .text-invalid {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
   display: none;
-}
-.text-valid {
-  color: green;
+  position: absolute;
 }
 
 .text-invalid {
-  color: red;
+  color: #7f1c1c;
 }
-.subscribe-input:not(:placeholder-shown):valid ~ .visually-hidden .text-valid {
-  display: block;
-}
-.subscribe-input:not(:placeholder-shown):invalid
-  ~ .visually-hidden
-  .text-invalid {
+
+.subscribe-input:not(:placeholder-shown):invalid ~ .text-invalid {
   display: block;
 }
 .subscribe-button {
@@ -124,14 +118,10 @@
   height: 400px;
 }
 @media screen and (min-width: 768px) {
-  .section-subscribe {
-    padding: 64px 32px;
-  }
-
   .subscribe-form {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 16px;
     gap: 24px;
   }
@@ -160,10 +150,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .section-subscribe {
-    padding: 64px 64px;
-  }
-
   .subscribe-container {
     display: flex;
     justify-content: space-between;

@@ -8,22 +8,21 @@
       </p>
       <form class="subscribe-form">
         <div class="inp-wrp">
-          <input
-            type="email"
-            id="email-subscribe"
-            placeholder="Your Email Here"
-            class="subscribe-input"
-            name="email"
-            required
-          />
-          <label class="visually-hidden">
-          <p class="text-valid">Success!</p>
-          <p class="text-invalid">Error Text</p>
-          </label>
+          <label for="email-subscribe"></label>
+            <input
+              type="email"
+              id="email-subscribe"
+              placeholder="Your Email Here"
+              class="subscribe-input"
+              name="email"
+              required
+            />
+            <p class="text-invalid">Error Text</p>
+          
         </div>
         <button type="submit" class="subscribe-button">
           Subscribe
-          <svg class="svg-button" width="24" height="24" >
+          <svg class="svg-button" width="24" height="24">
             <use href="/img/sprite.svg#icon-chevrons-right" />
           </svg>
         </button>
@@ -33,8 +32,8 @@
       </p>
     </div>
     <img
-      srcset="/img/subscribe-img 1x.jpg 1x, /img/subscribe-img 2x.jpg 2x"
-      src="/img/subscribe-img 1x.jpg"
+      srcset="/img/subscribe-img-1x.jpg 1x, /img/subscribe-img-2x.jpg 2x"
+      src="/img/subscribe-img-1x.jpg"
       alt="office"
       class="subscribe-img"
     />
