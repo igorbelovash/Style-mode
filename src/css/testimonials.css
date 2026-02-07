@@ -1,0 +1,48 @@
+.testimonials {
+    padding: 64px 0;
+}
+
+.testimonials-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.testimonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.testimonials-item {
+    width: 100%;
+    background-color: #c29d84;
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    border-radius: 32px;
+}
+
+.testimonials-content {
+    padding: 32px;
+}
+
+.testimonials-rating {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+
+.testimonials-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.testimonials-author {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
