@@ -120,28 +120,30 @@
 }
 
 .subscribe-button:hover {
-    opacity: 0.5;
-    transition-duration: 250ms;
+  opacity: 0.5;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
-  }
+}
 .svg-button {
   fill: #fff;
 }
 
-.subscribe-button:focus {
+.subscribe-button:focus
+.subscribe-button:active {
   box-shadow: none;
   outline: none;
-   opacity: 1;
+  opacity: 1;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
 }
-
-
 
 .subscribe-text {
   font-weight: 400;
-font-size: 12px;
-line-height: 1.5;
-margin-bottom: 32px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 32px;
 }
 
 .subscribe-img {
@@ -161,8 +163,6 @@ margin-bottom: 32px;
   .subscribe {
     margin-bottom: 32px;
   }
-
-  
 
   .inp-wrp {
     margin-bottom: 0;
@@ -202,20 +202,10 @@ margin-bottom: 32px;
   .subscribe {
     margin-bottom: 0;
   }
-.subscribe-text {
-  margin-bottom: 0;
-}
-  .subscribe-button:hover {
-    opacity: 0.5;
-    transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+
+  .subscribe-text {
+    margin-bottom: 0;
   }
 
-  .subscribe-button:active {
-    opacity: 1;
-    transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
-  }
+  
 }
