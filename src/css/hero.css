@@ -1,6 +1,6 @@
 .hero-section {
-    padding-top: 259px;
-    padding-bottom: 259px;
+    padding-top: 108px;
+    padding-bottom: 108px;
     width: 100%;
     color: #fff;
     display: flex;
@@ -10,7 +10,7 @@
     
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
-        url("/img/hero-bg.jpg");
+        url("/img/hero-bg-mob.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,7 @@
     .hero-section {
         background-image:
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url("/img/hero-bg-2x.jpg");
+            url("/img/hero-bg-mob-2x.jpg");
     }
 }
 
@@ -95,7 +95,7 @@
         text-align: left;
         background-image:
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url("/img/hero-bg.jpg");
+            url("/img/hero-bg-tab.jpg");
         }
         
     .hero-section-title,
@@ -108,7 +108,7 @@
     .hero-section {
         background-image:
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url("/img/hero-bg-2x.jpg");
+            url("/img/hero-bg-tab-2x.jpg");
     }
 }
 
