@@ -168,6 +168,10 @@
     flex-direction: column;
     gap: 40px;
   }
+  .location-address,
+  .location-link {
+    white-space: nowrap;
+  }
 
   .location-item {
     display: flex;
