@@ -1,6 +1,5 @@
-.container {
-  padding-top: 64px;
-  padding-bottom: 64px;
+.section-experience {
+  padding: 64px 0;
 }
 .moments-title {
   font-family: 'Aboreto', sans-serif;
@@ -43,8 +42,8 @@
 
 /* Styles for Tablet devices */
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 64px 32px;
+  .section-experience {
+    padding: 64px 16px;
   }
 
   .gallery-list {
@@ -65,13 +64,11 @@
 }
 /* Styles for Desktop devices */
 @media screen and (min-width: 1440px) {
-  .container {
-    padding: 64px;
+  .section-experience {
+    padding: 64px 48px;
   }
 
   .gallery-container {
-    width: 1312px;
-    height: 948px;
     flex-wrap: wrap;
   }
 
