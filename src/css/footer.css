@@ -12,11 +12,27 @@
 
 }
 
+.footer__logo {
+    display: inline-block;
+    width: 146px;
+    height: 84px;
+}
+
+
+.footer__logo svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
 @media screen and (min-width: 375px) {
     .footer__container {
         padding-inline: 32px;
     }
 }
+
+
 
 .footer__content {
     display: flex;
@@ -48,7 +64,7 @@
 .footer__social-list {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 12px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -112,13 +128,14 @@
 
 .footer__copy {
 
-    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
     color: #0b0803;
     text-align: center;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .footer__container {
@@ -155,6 +172,12 @@
         justify-content: center;
         gap: 32px;
     }
+
+    .footer__logo {
+        width: 84px;
+        height: 36px;
+    }
+
 }
 
 @media screen and (min-width: 1440px) {
