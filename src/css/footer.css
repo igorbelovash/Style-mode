@@ -43,7 +43,7 @@
 
 .footer__bar {
     width: 100%;
-    border-radius: 48px;
+    border-radius: 40px;
     background: rgba(255, 255, 255, 0.22);
 
     display: flex;
