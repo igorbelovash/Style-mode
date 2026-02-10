@@ -1,31 +1,20 @@
-<!-- SUCCESS SUBSCRIPTION MODAL -->
-<div class="subscription-backdrop" data-subscription>
-    <div class="subscription-modal" role="dialog" aria-modal="true" aria-labelledby="subscription-title"
-        aria-describedby="subscription-desc">
-        <!-- кнопка "x" -->
-        <button class="subscription-close-icon" type="button" aria-label="Close modal">
-            &times;
-        </button>
+<div id="subscribe"></div>
 
-        <!-- зображення (файл підстав свій із папки img) -->
-        <div class="subscription-media">
-            <img class="subscription-img" src="/img/Modal.jpg" alt="CoffeeJoy subscription success" loading="lazy" />
-        </div>
+<form class="join-form" method="post" action="/api/subscribe">
 
-        <!-- контент -->
-        <div class="subscription-content">
-            <h2 class="subscription-title" id="subscription-title">
-                Welcome to the world of CoffeeJoy!
-            </h2>
+    <input type="hidden" name="redirect" value="/subscribe-success.html" />
 
-            <p class="subscription-desc" id="subscription-desc">
-                Fresh brews, special offers, and cozy updates are coming your way
-            </p>
 
-            <!-- кнопка Close -->
-            <button class="subscription-close-btn" type="button">
-                Close
-            </button>
-        </div>
-    </div>
-</div>
+    <label class="visually-hidden">
+        Do not fill
+        <input type="text" name="company" tabindex="-1" autocomplete="off" />
+    </label>
+
+    <label class="join-label" for="subscribe-email">
+        <span class="visually-hidden">Email</span>
+        <input class="join-input" type="email" id="subscribe-email" name="email" placeholder="Your Email Here"
+            autocomplete="email" required />
+    </label>
+
+    <button class="join-btn" type="submit">Subscribe</button>
+</form>
