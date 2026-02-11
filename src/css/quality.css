@@ -76,10 +76,6 @@
 
 
 @media screen and (min-width:768px) {
-  .quality-cont {
-    padding: 0 32px;
-  }
-
 
 .first-subtitel {
     max-width: 452px;
@@ -109,9 +105,6 @@
 }
 
 @media screen and (min-width:1440px) {
-.quality-cont {
-    padding: 0 62px;
-}
 
 .first-block {
     margin: 0 auto 32px;
